@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Class_omitter</string>
+    <string name="title_chemis">Basic Chemistry</string>
+    <string name="title_his">World History</string>
+    <string name="title_en">English</string>
+    <string name="btn_chemis1">小テスト1</string>
+</resources>
