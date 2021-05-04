@@ -4,4 +4,7 @@
     <string name="title_his">World History</string>
     <string name="title_en">English</string>
     <string name="btn_chemis1">小テスト1</string>
+    <string name="init">None</string>
+    <string name="element">H</string>
+    <string name="no"></string>
 </resources>
