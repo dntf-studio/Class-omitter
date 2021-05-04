@@ -6,16 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".ui.chemis1">
 
+  <Button
+      android:id="@+id/button45"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="38dp"
+      android:layout_marginLeft="38dp"
+      android:layout_marginTop="622dp"
+      android:layout_marginEnd="285dp"
+      android:layout_marginRight="285dp"
+      android:layout_marginBottom="61dp"
+      android:text="@string/back"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
   <TextView
       android:id="@+id/textView"
       android:layout_width="304dp"
       android:layout_height="44dp"
-      android:layout_marginStart="37dp"
-      android:layout_marginLeft="37dp"
-      android:layout_marginTop="51dp"
-      android:layout_marginEnd="70dp"
-      android:layout_marginRight="70dp"
-      android:layout_marginBottom="636dp"
+      android:layout_marginStart="53dp"
+      android:layout_marginLeft="53dp"
+      android:layout_marginTop="62dp"
+      android:layout_marginEnd="54dp"
+      android:layout_marginRight="54dp"
+      android:layout_marginBottom="625dp"
       android:text="@string/init"
       android:textSize="30sp"
       app:layout_constraintBottom_toBottomOf="parent"
@@ -23,16 +39,50 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
+  <TextView
+      android:id="@+id/textView7"
+      android:layout_width="237dp"
+      android:layout_height="27dp"
+      android:layout_marginStart="53dp"
+      android:layout_marginLeft="53dp"
+      android:layout_marginTop="124dp"
+      android:layout_marginEnd="121dp"
+      android:layout_marginRight="121dp"
+      android:layout_marginBottom="580dp"
+      android:text="@string/awesometextmaster__1"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="237dp"
+      android:layout_height="27dp"
+      android:layout_marginStart="53dp"
+      android:layout_marginLeft="53dp"
+      android:layout_marginTop="420dp"
+      android:layout_marginEnd="121dp"
+      android:layout_marginRight="121dp"
+      android:layout_marginBottom="284dp"
+      android:text="@string/awesometextmaster__2"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
   <TableLayout
       style="?android:attr/buttonBarStyle"
-      android:layout_width="393dp"
-      android:layout_height="540dp"
-      android:layout_marginStart="2dp"
-      android:layout_marginLeft="2dp"
-      android:layout_marginTop="95dp"
-      android:layout_marginEnd="16dp"
-      android:layout_marginRight="16dp"
-      android:layout_marginBottom="96dp"
+      android:layout_width="305dp"
+      android:layout_height="228dp"
+      android:layout_marginStart="53dp"
+      android:layout_marginLeft="53dp"
+      android:layout_marginTop="169dp"
+      android:layout_marginEnd="53dp"
+      android:layout_marginRight="53dp"
+      android:layout_marginBottom="334dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
@@ -77,22 +127,6 @@
 
       <Button
           android:id="@+id/button96"
-          style="?android:attr/buttonBarButtonStyle"
-          android:layout_width="50dp"
-          android:layout_height="wrap_content"
-          android:text="@string/no"
-          android:textSize="18sp" />
-
-      <Button
-          android:id="@+id/button95"
-          style="?android:attr/buttonBarButtonStyle"
-          android:layout_width="50dp"
-          android:layout_height="wrap_content"
-          android:text="@string/no"
-          android:textSize="18sp" />
-
-      <Button
-          android:id="@+id/button94"
           style="?android:attr/buttonBarButtonStyle"
           android:layout_width="50dp"
           android:layout_height="wrap_content"
@@ -162,6 +196,13 @@
           android:text="@string/element"
           android:textSize="18sp" />
 
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
       <Button
           android:id="@+id/button9"
           style="?android:attr/buttonBarButtonStyle"
@@ -177,12 +218,6 @@
           android:layout_height="wrap_content"
           android:text="@string/element"
           android:textSize="18sp" />
-    </TableRow>
-
-    <TableRow
-        android:id="@+id/row3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
       <Button
           android:id="@+id/button11"
@@ -216,6 +251,13 @@
           android:text="@string/element"
           android:textSize="18sp" />
 
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
       <Button
           android:id="@+id/button15"
           style="?android:attr/buttonBarButtonStyle"
@@ -235,13 +277,99 @@
       <Button
           android:id="@+id/button17"
           style="?android:attr/buttonBarButtonStyle"
-          android:layout_width="50dp"
+          android:layout_width="21dp"
           android:layout_height="wrap_content"
           android:text="@string/element"
           android:textSize="18sp" />
 
       <Button
           android:id="@+id/button18"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="29dp"
+          android:layout_height="match_parent"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button19"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button20"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+    </TableRow>
+
+  </TableLayout>
+
+  <TableLayout
+      android:layout_width="306dp"
+      android:layout_height="125dp"
+      android:layout_marginStart="52dp"
+      android:layout_marginLeft="52dp"
+      android:layout_marginTop="476dp"
+      android:layout_marginEnd="53dp"
+      android:layout_marginRight="53dp"
+      android:layout_marginBottom="130dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <TableRow
+        android:id="@+id/row_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <Button
+          android:id="@+id/button_1"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button_2"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button_3"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button_4"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button_5"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button_6"
           style="?android:attr/buttonBarButtonStyle"
           android:layout_width="50dp"
           android:layout_height="wrap_content"
@@ -250,11 +378,59 @@
     </TableRow>
 
     <TableRow
-        android:id="@+id/row4"
+        android:id="@+id/row_2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent">
 
+      <Button
+          android:id="@+id/button_7"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button_8"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button_9"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button_10"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button_11"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/button_12"
+          style="?android:attr/buttonBarButtonStyle"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/element"
+          android:textSize="18sp" />
     </TableRow>
 
   </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

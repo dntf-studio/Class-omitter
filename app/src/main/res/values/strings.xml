@@ -3,8 +3,14 @@
     <string name="title_chemis">Basic Chemistry</string>
     <string name="title_his">World History</string>
     <string name="title_en">English</string>
-    <string name="btn_chemis1">小テスト1</string>
+    <string name="btn_chemis1">小テスト1(元素名と元素記号)</string>
     <string name="init">None</string>
     <string name="element">H</string>
     <string name="no"></string>
+    <string name="awesometextmaster__1">順に覚えてください。</string>
+    <string name="awesometextmaster__2">順番は関係ありません。</string>
+    <string name="back">戻る</string>
+    <string name="deception1">化学基礎のフラグメントです</string>
+    <string name="deception2">世界史のフラグメントです</string>
+    <string name="deception3">英語のフラグメントです</string>
 </resources>
